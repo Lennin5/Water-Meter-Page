@@ -2,7 +2,7 @@
 body{
 	font-family: 'Quicksand', sans-serif;
 	background: #f5f5f5;
-	/* background: #e4fff6; */
+	/* background: #e4fff6; */	
 }
 
 .white-text{
@@ -45,9 +45,20 @@ body{
 
 /* Clases de diseño que cambian al hacer onTopNavbar y onBottomNabvar---------------------------------------------------------------------*/
 
+
+
+.nav-link-dark{
+	color: #868686;
+}
+
+.nav-link-light{
+	color: #fff;
+}
+
+
 .navColorTop{
-	background-color: transparent !important;
-  }
+	background-color: transparent;
+}
   
 .navColorBottom{
 background-color: #00a796 !important;
@@ -280,6 +291,11 @@ h4{
   border-radius: 15px;
   /* box-shadow: 0px 0px 9px aqua; */
   transition: all 0.7s ease;
+
+  -webkit-box-shadow:  8px 8px 15px 0px rgba(165, 165, 165, 0.78);
+  -moz-box-shadow:  8px 8px 15px 0px rgba(165, 165, 165, 0.78);
+  -o-box-shadow: 8px 8px 15px 0px rgba(165, 165, 165, 0.78);
+  -ms-box-shadow: 8px 8px 15px 0px rgba(165, 165, 165, 0.78);  
 }
 
 .imgCostumers:hover{
@@ -458,6 +474,20 @@ h4{
 	font-weight: bold;
 	margin-bottom: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
