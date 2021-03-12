@@ -1,0 +1,80 @@
+{
+    "navbar": {
+        "home": "Home",
+        "solutions": "Solutions",
+        "our-technology": "Our Technology",
+        "about-us": "About Us",
+        "contact-with-us": "Contact With Us",
+        "our-company": "Our Company"
+    },
+    "home":{
+        "home-title": "Manage your water more efficiently",
+        "home-description": "What if I told you that you can manage consumption of water in your company more efficiently, using measurement technology and innovation.",
+        "buildings-title": "For all types of buildings",
+        "buildings-description": "Our innovative technology assist businesses to become more efficient in their water management.",
+        "for-customers-title": "For Customers",
+        "water-meter-web-app-title": "Water Meter Web App",
+        "water-meter-web-app-description": "Our management tools provide our customers with real-time data visualization through our interactive web platform, which shows real-time water consumption through accurate records and graphics.",
+        "water-meter-mobile-app-title": "Water Meter Mobile App",
+        "water-meter-mobile-app-description": "It provides real-time information on the go! Our clients have access to their water consumption records, daily, weekly and monthly."      
+    },
+    "solutions":{
+        "solutions-title": "Water Meter’s Solutions",
+        "solutions-description": "With Water Meter, visualize graphs and statistics in an efficient way, and the water consumption through alert notifications in real time.",
+        "data-analysis-title": "Data Analysis",
+        "data-analysis-description": "Water measurement consumption details and billing charges will be provided to our clients.",
+        "save-money-title": "Save Money",
+        "save-money-description": "Our clients save money in the short and long term by using our technology.",
+        "saving-environment-title": "Saving the environment",
+        "saving-environment-description": "Our company is focus on saving the environment one drop of water at a time.",
+        "alert-notifications-title": "Alert notifications",
+        "alert-notifications-description": "Our notifications will inform our clients of the water consumption and will show a comparison between previous consumption records with current ones."
+    },
+    "our-technology":{
+        "our-technology-title": "What We Do?",
+        "our-technology-description": "Our company is solving every building’s water waist problems through our real-time managing technology application. Our unique technology and algorithms provide our clients a peace of mind knowing that every drop of water its being monitor and accounted for.",
+        "main-elements-title": "Main Elements",
+        "hardware-title": "Hardware",
+        "hardware-description": "Our unique patented software works with high-capacity sensors and microcontrollers which provide real-time management information to our clients.",
+        "software-title": "Software",
+        "software-description": "Our patented software algorithms work together with our managing Web and Mobile application to give our clients real-time information about their buildings water usage.",
+        "logic-title": "Logic",
+        "logic-description": "Our powerful cloud administration infrastructure works with intelligently and connects our clients via Wi-Fi and provides a real-time experience accessing our platform."        
+    },
+    "contact-with-us": {
+        "contact-with-us-title":"Contact With Us",
+        "contact-with-us-description": "To learn more about Water Meter or technical support, Contact us.",
+        "contact-business-title": "Contact Business",
+        "contact-business-description": "The Water Meter team seeks to provide a better service and to strengthen the relationship with its customers.",
+        "contact-to-get-help-title": "Contact To Get Help",
+        "contact-to-get-help-description": "Our technical team is available to diagnose any problem that may arise and solve it as soon as possible.",
+        "general-enquires-title": "General Enquiries",
+        "general-enquires-description": "Contact us for more information.",
+        "email:": "Email: ",
+        "phone:": "Phone:"
+    },
+    "our-company":{
+        "our-company-title": "Our Vision",
+        "our-company-description": "From the lowest to the highest, become one of the water saving and management solutions for our clients, expanding our services internationally.",
+        "water-meter-team-title": "Water Meter Team"
+    },
+    "get-a-demo":{
+        "get-a-demo-title": "Get a Demo of Water Meter",
+        "get-a-demo-description": "Tell us about your situation by email and we will contact you to give you a presentation of our project through Google Meet or Zoom.",
+        "contact-us-form-label": "Contact With Us",
+        "name-form-label": "Name*",
+        "email-form-label": "Email*",
+        "tell-us-form-label": "Tell Us More About Your Situation (optional)",
+        "type-here-form": "Type here...",
+        "button-form-label": "Submit"
+    },
+    "form-messages":{
+        "empty-values": "Fill in the required fields, please.",
+        "invalid-email": "Invalid Email.",
+
+        "data-successfully": "The data has been sent successfully."
+    },
+    "not-found":{
+        "button-go-home-title": "Go Home"
+    }
+}

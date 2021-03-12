@@ -1,0 +1,80 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "solutions": "Soluciones",
+        "our-technology": "Nuestra Tecnología",
+        "about-us": "Acerca De",
+        "contact-with-us": "Contáctanos",
+        "our-company": "Nuestra Compañia"
+    },
+    "home":{
+        "home-title": "Administre su agua de manera más eficiente",
+        "home-description": "¿Y si te dijera que puedes gestionar el consumo de agua en tu empresa de forma más eficiente, utilizando tecnología de medición e innovación?",
+        "buildings-title": "Para Cualquier Tipo De Edificio",
+        "buildings-description": "Nuestra tecnología innovadora ayuda a las empresas a ser más eficientes en la gestión del agua.",
+        "for-customers-title": "Para Los Clientes",
+        "water-meter-web-app-title": "Aplicación Web Water Meter",
+        "water-meter-web-app-description": "Nuestras herramientas de gestión brindan a nuestros clientes visualización de datos en tiempo real a través de nuestra plataforma web interactiva, que muestra el consumo de agua en tiempo real a través de registros y gráficos precisos.",
+        "water-meter-mobile-app-title": "Aplicación Móvil Water Meter",
+        "water-meter-mobile-app-description": "¡Proporciona información en tiempo real sobre la marcha! Nuestros clientes tienen acceso a sus registros de consumo de agua, diarios, semanales y mensuales."
+    },
+    "solutions":{
+        "solutions-title": "Soluciones De Water Meter",
+        "solutions-description": "Con Water Meter, visualice gráficos y estadísticas de manera eficiente, y el consumo de agua a través de notificaciones de alerta en tiempo real.",
+        "data-analysis-title": "Análisis De Datos",
+        "data-analysis-description": "Se proporcionarán a nuestros clientes los detalles del consumo de agua y los cargos aproximados de facturación.",
+        "save-money-title": "Ahorro De Dinero",
+        "save-money-description": "Nuestros clientes ahorran dinero a corto y largo plazo utilizando nuestra tecnología.",
+        "saving-environment-title": "Salvando El Medio Ambiente",
+        "saving-environment-description": "Nuestra empresa se centra en salvar el medio ambiente una gota de agua a la vez. ",
+        "alert-notifications-title": "Notificaciones De Alerta",
+        "alert-notifications-description": "Nuestras notificaciones informarán a nuestros clientes del consumo de agua y mostrarán una comparación entre los registros de consumo anteriores con los actuales."
+    },
+    "our-technology":{
+        "our-technology-title": "¿Qué hacemos?",
+        "our-technology-description": "Nuestra empresa está solucionando los problemas de pérdida de agua de todos los edificios mediante nuestra aplicación de tecnología de gestión en tiempo real. Nuestra tecnología y algoritmos únicos brindan a nuestros clientes la tranquilidad de saber que cada gota de agua está siendo monitoreada y contabilizada.",
+        "main-elements-title": "Elementos Principales",
+        "hardware-title": "Hardware",
+        "hardware-description": "Nuestro software patentado único funciona con sensores y microcontroladores de alta capacidad que brindan información de gestión en tiempo real a nuestros clientes.",
+        "software-title": "Software",
+        "software-description": "Nuestros algoritmos de software patentados trabajan junto con nuestra aplicación web y móvil de gestión para brindar a nuestros clientes información en tiempo real sobre el uso de agua de sus edificios.",
+        "logic-title": "Lógica",
+        "logic-description": "Nuestra poderosa infraestructura de administración en la nube funciona de manera inteligente y conecta a nuestros clientes a través de Wi-Fi y brinda una experiencia en tiempo real al acceder a nuestra plataforma."        
+    },
+    "contact-with-us": {
+        "contact-with-us-title":"Contáctanos",
+        "contact-with-us-description": "Para obtener más información sobre Water Meter o el soporte técnico, contáctenos.",
+        "contact-business-title": "Contacto De Negocios",
+        "contact-business-description": "El equipo de Water Meter busca brindar un mejor servicio y fortalecer la relación con sus clientes.",
+        "contact-to-get-help-title": "Contacto De Soporte",
+        "contact-to-get-help-description": "Nuestro equipo técnico está disponible para diagnosticar cualquier problema que pueda surgir y solucionarlo lo antes posible.",
+        "general-enquires-title": "Preguntas Generales",
+        "general-enquires-description": "Contáctenos para más información.",
+        "email": "Correo:",
+        "phone:": "Teléfono:"
+    },
+    "our-company":{
+        "our-company-title": "Nuestra Visión",
+        "our-company-description": "Desde lo más bajo hasta lo más alto, convertirnos en una de las soluciones de ahorro y gestión de agua para nuestros clientes, expandiendo nuestros servicios a nivel internacional.",
+        "water-meter-team-title": "Equipo De Water Meter"
+    },
+    "get-a-demo":{
+        "get-a-demo-title": "Obtenga una demostración de Water Meter",
+        "get-a-demo-description": "Cuéntanos tu situación por correo electrónico y nos pondremos en contacto contigo para darte una presentación de nuestro proyecto a través de Google Meet o Zoom.",
+        "contact-us-form-label": "Contáctanos",
+        "name-form-label": "Nombre*",
+        "email-form-label": "Correo*",
+        "tell-us-form-label": "Cuéntanos Más Acerca De Tu Situación (opcional)",
+        "type-here-form": "Escribe aquí...",
+        "button-form-label": "Enviar"
+    },
+    "form-messages":{
+        "empty-values": "Por favor, llena los campos requeridos.",
+        "invalid-email": "Correo no válido.",
+
+        "data-successfully": "Se han enviado los datos con exito."
+    },
+    "not-found":{
+        "button-go-home-title": "Volver A Inicio"
+    }    
+}

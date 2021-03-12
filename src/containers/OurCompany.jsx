@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 
 import OurVisionImg from "../assets/img/general/our-vision.jpg";
 
@@ -13,6 +14,7 @@ import RodrigoBackgroundImg from "../assets/img/background-team/green.jpg";
 import MarioBackgroundImg from "../assets/img/background-team/blue.jpg";
 
 const OurCompany = () => {
+  const [t, i18n] = useTranslation("global");
     return (
         <>
     {/* Information Our_Company */}
@@ -22,11 +24,10 @@ const OurCompany = () => {
     <div className="row">
 
       <div className="col-lg-6 col-md-6 col-ms-12  cls1">
-        <h2 className="Titulo">Our Vision</h2>
+        <h2 className="Titulo">{t("our-company.our-company-title")}</h2>
 
         <p className="text-sm-start text-md-start text-lg-start">
-        To become one of the solutions for saving and managing water for our clients, 
-        expanding our services internationally.          
+        {t("our-company.our-company-description")}      
         </p>
       </div>
 
@@ -42,7 +43,7 @@ const OurCompany = () => {
 
   <div className="cls6">
 
-   <h2 className="Titulo2">Water Meter Team</h2>
+   <h2 className="Titulo2">{t("our-company.water-meter-team-title")}</h2>
 
    <div className="row">
 

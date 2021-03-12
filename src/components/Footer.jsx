@@ -16,9 +16,9 @@ const Footer = () => {
 
                 <div className="col-lg-4 col-md-4 col-ms-12 iconosDiv">
 
-                    <a href="" className="enlaceFooter"><img src={FacebookIcon} className="iconos" /></a>
-                        <a href="" className="enlaceFooter"><img src={TwitterIcon} className="iconos" /></a>
-                            <a href="" className="enlaceFooter"><img src={InstagramIcon} className="iconos" /></a>
+                    <a href="" className="enlaceFooter"><img src={FacebookIcon} className="iconos" hidden /></a>
+                        <a href="" className="enlaceFooter"><img src={TwitterIcon} className="iconos" hidden /></a>
+                            <a href="" className="enlaceFooter"><img src={InstagramIcon} className="iconos" hidden /></a>
 				
 			</div>
 

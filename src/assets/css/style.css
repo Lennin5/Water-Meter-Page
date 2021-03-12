@@ -1,8 +1,7 @@
 
 body{
 	font-family: 'Quicksand', sans-serif;
-	background: #f5f5f5;
-	/* background: #e4fff6; */	
+	/* overflow-x: hidden; */
 }
 
 .white-text{
@@ -10,8 +9,8 @@ body{
 }
 
 .btn-water{
-	border-radius: 30px; 
-	width: "50%" !important;
+	border-radius: 20px; 
+	
 	color: #ffffff;
 	background-color: #00a796;
 }
@@ -67,6 +66,7 @@ background-color: #00a796 !important;
 .btn-outline-success{
 	color: #00a796;
 	border: 2px solid #00a796;	
+	margin-right: -50px !important;
 }
 
 .btn-outline-success:hover{
@@ -77,6 +77,7 @@ background-color: #00a796 !important;
 .btn-outline-light{
 	color: #f2f2f2;
 	border: 2px solid #f2f2f2;	
+	margin-right: -50px !important;
 }
 
 .navbar-brand-logo-light{
@@ -303,7 +304,7 @@ h4{
 	-o-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 
 
@@ -475,19 +476,60 @@ h4{
 	margin-bottom: 15px;
 }
 
+/* Estilo Fomulario Firebase --------------------------------------------------------------------*/
+
+
+.txtInput{
+	width: 87%;
+	background-color: #f3fefd;
+	border: 1px solid #00b8a5;
+	border-radius: 35px;	
+	height: 40px;
+	color: #007c70;
+	outline: none;
+}
+
+.txtInput::placeholder {
+	color: #00b8a5;
+}
+
+.txtComment{	
+	width: 100%;
+	background-color: #f3fefd !important;
+	border: 1px solid #00b8a5;
+	border-radius: 10px;	
+	height: 30px;
+	color: #007c70;
+	outline: none;
+}
+
+.txtComment::placeholder {
+	color: #00b8a5;
+}
+
+.btn-water-firebase{
+	border-radius: 30px; 
+	width: 30% !important;
+	color: #ffffff;
+	background-color: #00a796;
+
+	-webkit-box-shadow:  2px 2px 10px 0px rgba(165, 165, 165, 0.78);
+    -moz-box-shadow:  2px 2px 10px 0px rgba(165, 165, 165, 0.78);
+    -o-box-shadow: 2px 2px 10px 0px rgba(165, 165, 165, 0.78);
+    -ms-box-shadow: 2px 2px 10px 0px rgba(165, 165, 165, 0.78);	
+}
+
+.btn-water-firebase:hover{
+	color: #ffffff;	
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
+.dropdown-nav-active :active{
+	background-color: #00ab9b;
+}
 
 
 
