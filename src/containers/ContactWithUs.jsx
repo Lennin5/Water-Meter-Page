@@ -116,7 +116,7 @@ const Contact = () => {
 
             <h4 className="ContactCardTitle">{t("get-a-demo.contact-us-form-label")}</h4>
             <br/>
-                <section style={{marginBottom: 20, display: 'flex', alignItems: 'center'}}>
+                <section style={{marginBottom: 25, display: 'flex', alignItems: 'center'}}>
                     <svg style={{color: "#00b8a5", marginRight: 10}} xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
                         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                         <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
@@ -124,14 +124,14 @@ const Contact = () => {
                     <input type="text" id="name" className="txtInput" placeholder={t("get-a-demo.name-form-label")} onChange={(e)=>setName(e.target.value)} required="" pattern="[0-9]{10}" autoComplete="off" spellcheck="false" />
                 </section>
 
-                <section style={{marginBottom: 20, display: 'flex', alignItems: 'center'}} >
+                <section style={{marginBottom: 25, display: 'flex', alignItems: 'center'}} >
                     <svg style={{color: "#00b8a5", marginRight: 10}} xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-envelope-fill" viewBox="0 0 16 16">
                         <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
                     </svg>                                        
                     <input type="text" id="e-mail" className="txtInput" placeholder={t("get-a-demo.email-form-label")} onChange={(e)=>setEmail(e.target.value)} required="" pattern="[0-9]{10}" autoComplete="off" spellcheck="false" />
                 </section>
 
-                <section style={{marginBottom: 20}}>
+                <section style={{marginBottom: 25}}>
                     <center style={{marginBottom: 10, display: 'flex', alignItems: 'center'}}>
                         <svg style={{color: "#00b8a5", marginRight: 10}}  xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
                             <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>

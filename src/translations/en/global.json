@@ -16,7 +16,8 @@
         "water-meter-web-app-title": "Water Meter Web App",
         "water-meter-web-app-description": "Our management tools provide our customers with real-time data visualization through our interactive web platform, which shows real-time water consumption through accurate records and graphics.",
         "water-meter-mobile-app-title": "Water Meter Mobile App",
-        "water-meter-mobile-app-description": "It provides real-time information on the go! Our clients have access to their water consumption records, daily, weekly and monthly."      
+        "water-meter-mobile-app-description": "It provides real-time information on the go! Our clients have access to their water consumption records, daily, weekly and monthly.",
+        "note": "Note: Water Meter Web App and Water Meter Mobile App are currently under development."
     },
     "solutions":{
         "solutions-title": "Water Meter’s Solutions",
@@ -55,8 +56,8 @@
     },
     "our-company":{
         "our-company-title": "Our Vision",
-        "our-company-description": "From the lowest to the highest, become one of the water saving and management solutions for our clients, expanding our services internationally.",
-        "water-meter-team-title": "Water Meter Team"
+        "our-company-description": "From the lowest to the highest, to be a Salvadoran company that provides savings and water management solutions to our clients, expanding our services internationally.",
+        "water-meter-team-title": "Our Team"
     },
     "get-a-demo":{
         "get-a-demo-title": "Get a Demo of Water Meter",

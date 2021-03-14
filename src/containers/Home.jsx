@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { useMediaQuery } from 'react-responsive'
+import { useMediaQuery } from 'react-responsive';
 import { Parallax } from 'react-parallax';
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+
 
 import GetADemoBottom from "../components/GetADemoBottom";
 
@@ -60,7 +61,6 @@ const Home = () => {
 
     return (
       <>      
-
   
     <Parallax
     // blur={1}
@@ -163,13 +163,13 @@ const Home = () => {
         
                     <div className="col-lg-6 col-md-6 col-ms-12 ">  
                     <center>
-                      <h2 className="Titulo">{t("home.water-meter-web-app-title")}</h2>        
-                    </center>
+                      <h2 className="Titulo">{t("home.water-meter-web-app-title")}</h2>                            
                       <p className="text-sm-center text-md-center text-lg-center">
                       {t("home.water-meter-web-app-description")}
-                      </p>                                                 
+                      </p>
+                      </center>                                                 
                     </div>
-                    
+                                        
                 </div>
                         
               <Desktop><br/><br/><br/><br/><br/><br/></Desktop>
@@ -192,7 +192,15 @@ const Home = () => {
                     </div>
                     
                 </div>
+
                 <Desktop><br/><br/><br/><br/><br/><br/></Desktop>
+
+                <div className="col-lg-12 col-md-12 col-ms-12" style={{padding: 10}}>   
+                  <center>                    
+                      <p><b>{t("home.note")}</b></p>                                                            
+                  </center>                 
+                </div>
+
 
               {/* <GetADemoBottom /> */}
         </>

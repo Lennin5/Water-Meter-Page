@@ -6,7 +6,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Switch from '@material-ui/core/Switch';
 import { useTranslation } from "react-i18next";
 
-const TealSwitch = withStyles({    
+
+const TealSwitch = withStyles({        
   switchBase: {
     color: grey[300],
     '&$checked': {
@@ -17,7 +18,7 @@ const TealSwitch = withStyles({
     },
   },
   checked: {},
-  track: {},
+  track: {},  
 })(Switch);
 
 
@@ -42,10 +43,11 @@ export default function SwitchLanguage(props) {
     <div style={{marginRight: 0}}>
     <FormGroup>
       <FormControlLabel
-        control={<TealSwitch onChange={changeLanguage} navbarDark={navbarDark} />}
+        control={<TealSwitch onChange={changeLanguage} />}
         label={language ? "Español" : "Spanish"}
         labelPlacement="start"       
         style={{color: navbarDark ? "#8cd7d0" : "#868686"}}
+        color="red"
       />
     </FormGroup>
     </div>
