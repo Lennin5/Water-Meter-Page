@@ -192,7 +192,7 @@ const Header = () => {
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <div className="navbar-nav me-auto text-center">
-        <Link to='/' onClick={() =>SelectOption("home")} className="nav-link" id="navbar-selection-home" style={{ margin: 0, marginLeft: 15, }}>{t("navbar.home")}</Link>
+        <Link to='/' onClick={() =>SelectOption("home")} className="nav-link" id="navbar-selection-home" style={{ margin: 0, marginLeft: 15, fontWeight: 900}}>{t("navbar.home")}</Link>
         <Link to='./solutions' onClick={()=>SelectOption("solutions")} className="nav-link" id="navbar-selection-solutions" style={{ margin: 0, marginLeft: 15 }}>{t("navbar.solutions")}</Link>
         <Link to='/our-technology' onClick={()=>SelectOption("our-technology")} className="nav-link" id="navbar-selection-our-technology" style={{ margin: 0, marginLeft: 15 }}>{t("navbar.our-technology")}</Link>
         <li className="nav-item dropdown" style={{ marginLeft: 15, marginBottom: 5 }}>
