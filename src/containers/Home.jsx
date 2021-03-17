@@ -39,9 +39,14 @@ import HomeImg2 from "../assets/img/general/home-small-screen.jpg"
 const Home = () => {
 
   const [t, i18n] = useTranslation("global");
+
+  const FullDesktop = ({ children }) => {    
+    const isFullDesktop = useMediaQuery({ minWidth: 1800, maxWidth: 12000 })
+    return isFullDesktop ? children : null;    
+  }
     
   const Desktop = ({ children }) => {    
-    const isDesktop = useMediaQuery({ minWidth: 1150 })
+    const isDesktop = useMediaQuery({ minWidth: 1150, maxWidth: 1799 })
     return isDesktop ? children : null;    
   }
   const Tablet = ({ children }) => {    
@@ -60,8 +65,8 @@ const Home = () => {
 
 
     return (
-      <>      
-  
+      <>        
+
     <Parallax
     // blur={1}
     bgImage={HomeImg}
@@ -156,6 +161,7 @@ const Home = () => {
                 <div className="row cls3">
         
                     <div className="col-lg-6 col-md-6 col-ms-12 ">
+                      <FullDesktop><img src={WebAppResponsiveImg}  className="img1" /></FullDesktop>
                       <Desktop><WebAppImageParallax /></Desktop>
                       <Tablet><img src={WebAppResponsiveImg}  className="img1" /></Tablet>
                       <Mobile><img src={WebAppResponsiveImg}  className="img1" /></Mobile>                                                          
@@ -177,8 +183,9 @@ const Home = () => {
                 <div className="row cls3">
         
                     <div className="col-lg-6 col-md-6 col-ms-12 ">
+                      <FullDesktop><img src={i18n.language == "en" ? MobileAppResponsiveImg : MobileAppResponsiveImgEs}  className="img1" /></FullDesktop>
                       <Desktop><MobileAppImageParallax  /></Desktop>
-                      <Tablet><img src={i18n.language == "en" ? MobileAppResponsiveImg : MobileAppResponsiveImgEs}  className="img1" /></Tablet>                      
+                      <Tablet><img src={i18n.language == "en" ? MobileAppResponsiveImg : MobileAppResponsiveImgEs}  className="img1" /></Tablet>
                       <Mobile><img src={i18n.language == "en" ? MobileAppResponsiveImg : MobileAppResponsiveImgEs}  className="img1" /></Mobile>                                     
                     </div>
         

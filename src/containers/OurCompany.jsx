@@ -47,25 +47,50 @@ const OurCompany = () => {
 
    <div className="row">
 
-    <div className="col-lg-3 col-md-6 col-ms-12">
-      
-       <div className="CardTeam">
-        
-        <img src={SamuelBackgroundImg}  className="TeamImg" />
-         
-         <img src={SamuelImg} className="PerfilImgSamuel" />
+   <div className="col-lg-3 col-md-6 col-ms-12">
 
-         <div className="InformationTeam">
-               
-               <h4 className="TituloTeam">CMO & Founder</h4>
+<div className="CardTeam">
 
-               <center><p>Samuel Guirola</p></center>
-       
-        </div>
-         
-       </div>
+  <img src={RodrigoBackgroundImg} className="TeamImg" />
+   
+   <img src={RodrigoImg} className="PerfilImgRodrigo" />
 
-    </div>
+   <div className="InformationTeam">
+
+    <h4 className="TituloTeam">CEO & Founder</h4>
+
+   <center><p>Rodrigo Alfaro</p></center>
+
+
+
+  </div>
+
+ </div>
+
+</div>
+
+
+<div className="col-lg-3 col-md-6 col-ms-12">
+
+<div className="CardTeam">
+
+  <img src={MarioBackgroundImg} className="TeamImg" />
+
+  <img src={MarioImg} className="PerfilImgMario" />
+  
+  <div className="InformationTeam">
+
+    <h4 className="TituloTeam">CTO & Founder</h4>
+
+    <center><p>Mario Mártir</p></center>
+
+ 
+  </div>
+
+ </div>
+
+</div>
+
 
 
     <div className="col-lg-3 col-md-6 col-ms-12">
@@ -90,48 +115,26 @@ const OurCompany = () => {
 
 
     <div className="col-lg-3 col-md-6 col-ms-12">
-
-      <div className="CardTeam">
-
-        <img src={RodrigoBackgroundImg} className="TeamImg" />
+      
+       <div className="CardTeam">
+        
+        <img src={SamuelBackgroundImg}  className="TeamImg" />
          
-         <img src={RodrigoImg} className="PerfilImgRodrigo" />
+         <img src={SamuelImg} className="PerfilImgSamuel" />
 
          <div className="InformationTeam">
+               
+               <h4 className="TituloTeam">CMO & Founder</h4>
 
-          <h4 className="TituloTeam">CEO & Founder</h4>
-
-         <center><p>Rodrigo Alfaro</p></center>
-
-
-
-        </div>
-
-       </div>
-      
-    </div>
-
-
-    <div className="col-lg-3 col-md-6 col-ms-12">
-
-      <div className="CardTeam">
-
-        <img src={MarioBackgroundImg} className="TeamImg" />
-
-        <img src={MarioImg} className="PerfilImgMario" />
-        
-        <div className="InformationTeam">
-
-          <h4 className="TituloTeam">CTO & Founder</h4>
-
-          <center><p>Mario Mártir</p></center>
-
+               <center><p>Samuel Guirola</p></center>
        
         </div>
-
+         
        </div>
-      
+
     </div>
+
+
      
    </div>
 

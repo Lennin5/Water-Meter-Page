@@ -345,6 +345,7 @@ h4{
 .footer{
 	background: black;
 	padding: 1%;
+	margin-top: 15% !important;
 }
 
 .enlaceFooter{

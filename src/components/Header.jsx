@@ -64,6 +64,14 @@ const Header = () => {
     }
   }
 
+  function SelectOptionHome(){
+    getElmentById("navbar-selection-home", "900");
+    getElmentById("navbar-selection-solutions", "100");
+    getElmentById("navbar-selection-our-technology", "100");
+    getElmentById("navbar-selection-contact-with-us", "100");
+    getElmentById("navbar-selection-our-company", "100");
+    getElmentById("navbar-selection-about-us", "100");        
+  }
   // Función dependiente para SelectOption() [Sirve pa' no repetir el document.getElementById.style.fontWeight]
   function getElmentById(id, param){
     return document.getElementById(id).style.fontWeight = param;
@@ -176,7 +184,7 @@ const Header = () => {
 <nav id="nav" class="navbar sticky-top navbar-expand-sm navbar-light" style={{display: "flex", justifyContent: "center", paddingRight: 20, paddingLeft: 20, backgroundColor: "#fff"}}>
     <div style={{display: "flex", justifyContent: "center", borderWidth: 1, borderColor: "red"}}>
       <section>
-        <Link to='/' className="navbar-brand navbar-brand-logo-dark" id="navbar-brand" style={{ marginTop: -1, fontWeight: "bold", fontSize: 25,}}>
+        <Link to='/' onClick={() =>SelectOptionHome()} className="navbar-brand navbar-brand-logo-dark" id="navbar-brand" style={{ marginTop: -1, fontWeight: "bold", fontSize: 25,}}>
           <img src={DropIconLight} width="60" height="45" style={{ marginTop: -4 }} id="dropIcon" className="d-inline-block align-top"
             alt="Logo Water Meter" /> <b>Water Meter</b>        
         </Link>
