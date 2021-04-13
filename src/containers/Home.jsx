@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 import GetADemoBottom from "../components/GetADemoBottom";
 
-import HomeImg from "../assets/img/general/home.jpg"
+import HomeImg from "../assets/img/general/homeB.jpg"
 import PipesImg from "../assets/img/general/pipeline.jpg";
 
 // img-en
