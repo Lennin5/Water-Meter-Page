@@ -11,18 +11,18 @@ import HomeImg from "../assets/img/general/homeB.jpg"
 import PipesImg from "../assets/img/general/pipeline.jpg";
 
 // img-en
-import Customers1Img from "../assets/img/general/img-en/CostumerT1.jpeg";
-import Customers2Img from "../assets/img/general/img-en/CostumerT2.jpeg";
-import Customers3Img from "../assets/img/general/img-en/CostumerT3.jpeg";
-import Customers4Img from "../assets/img/general/img-en/CostumerT4.jpeg";
+import Customers1Img from "../assets/img/general/img-en/CostumerT1.jpg";
+import Customers2Img from "../assets/img/general/img-en/CostumerT2.jpg";
+import Customers3Img from "../assets/img/general/img-en/CostumerT3.jpg";
+import Customers4Img from "../assets/img/general/img-en/CostumerT4.jpg";
 
 import MobileAppResponsiveImg from "../assets/img/general/img-en/movil-app-responsive.png";
 
 // img-es
-import Customers1ImgEs from "../assets/img/general/img-es/CostumerT1.jpeg";
-import Customers2ImgEs from "../assets/img/general/img-es/CostumerT2.jpeg";
-import Customers3ImgEs from "../assets/img/general/img-es/CostumerT3.jpeg";
-import Customers4ImgEs from "../assets/img/general/img-es/CostumerT4.jpeg";
+import Customers1ImgEs from "../assets/img/general/img-es/CostumerT1.jpg";
+import Customers2ImgEs from "../assets/img/general/img-es/CostumerT2.jpg";
+import Customers3ImgEs from "../assets/img/general/img-es/CostumerT3.jpg";
+import Customers4ImgEs from "../assets/img/general/img-es/CostumerT4.jpg";
 
 import MobileAppResponsiveImgEs from "../assets/img/general/img-es/movil-app-responsive.png";
 
@@ -33,7 +33,6 @@ import WebAppResponsiveImg from "../assets/img/general/web-app-responsive.png";
 import WebAppImageParallax from "../components/WebAppImageParallax";
 import MobileAppImageParallax from "../components/MobileAppImageParallax";
 
-import HomeImg2 from "../assets/img/general/home-small-screen.jpg"
 
 
 const Home = () => {
