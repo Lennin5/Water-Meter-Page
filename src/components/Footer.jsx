@@ -36,7 +36,7 @@ const Footer = () => {
 
                             <div className="col-lg-4 col-md-4 col-ms-12 ">
 
-                                <p className="informationFooter">© 2019 - 2021 Water Meter</p>
+                                <p className="informationFooter">© 2019 - 2022 Water Meter</p>
 			</div>
 
                                     <div className="col-lg-4 col-md-4 col-ms-12 ">

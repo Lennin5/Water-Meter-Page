@@ -3,9 +3,11 @@ import { useTranslation } from "react-i18next";
 import { validateEmail } from "../utils/Validation";
 import { store } from "../utils/FirebaseConfiguration"
 
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast, Slide, Zoom, Flip, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 import GetADemoHomeImg from "../assets/img/general/get-a-demo.jpg";
+import transitions from '@material-ui/core/styles/transitions';
 
 const Contact = () => {    
 
@@ -59,10 +61,9 @@ const Contact = () => {
                 pauseOnHover: true,
                 draggable: true,
                 progress: undefined,                    
-                style: {backgroundColor: "#e95151", borderRadius: 10 }
+                style: {backgroundColor: "#e95151", borderRadius: 10},
             });;  
         }
- 
     }
 
     const AddContact = async () => {
@@ -99,7 +100,8 @@ const Contact = () => {
 
     return (
         <>
-        <ToastContainer />            
+         
+        <ToastContainer transition={Bounce} />      
 
 <div className="row cls4">
 

@@ -4,7 +4,6 @@ import { Parallax } from 'react-parallax';
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-
 import GetADemoBottom from "../components/GetADemoBottom";
 
 import HomeImg from "../assets/img/general/homeB.jpg"
@@ -34,10 +33,11 @@ import WebAppImageParallax from "../components/WebAppImageParallax";
 import MobileAppImageParallax from "../components/MobileAppImageParallax";
 
 
-
 const Home = () => {
 
+
   const [t, i18n] = useTranslation("global");
+
 
   const FullDesktop = ({ children }) => {    
     const isFullDesktop = useMediaQuery({ minWidth: 1800, maxWidth: 12000 })
@@ -84,15 +84,14 @@ const Home = () => {
             </div>            
         </div> 
     </div>
-      <div style={{ height: '100px' }} />
-      
+      <div style={{ height: '100px' }} />      
     </Parallax>  
-    
-                        
+         
         
             <div className="row cls3">
         
                     <div className="col-lg-6 col-md-6 col-ms-12 ">
+                      <p>{i18n.t('navbar.home')}</p>
                       <br/>
                       <br/>
                       
@@ -111,7 +110,7 @@ const Home = () => {
                         bgImage={PipesImg}
                         bgImageAlt="Pipes"
                         strength={200}
-                        style={{borderRadius: 20}}
+                        style={{borderRadius: 20}}                        
                         >                        
                         <div style={{ height: '300px' }} />
                       </Parallax>                         
@@ -198,6 +197,9 @@ const Home = () => {
                     </div>
                     
                 </div>
+
+
+              
 
                 <Desktop><br/><br/><br/><br/><br/><br/></Desktop>
 
